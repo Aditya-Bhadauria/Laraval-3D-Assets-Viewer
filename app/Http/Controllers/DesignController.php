@@ -19,4 +19,12 @@ class DesignController extends Controller
 
         return view('designs.index', compact('designs', 'room'));
     }
+
+    public function DisplayAll()
+    {
+        $designs = Design::all(); // Fetch all designs from the database
+        return view('AllDesigns.AllDesigns', compact('designs')); // Return the view with designs data
+    }
+
+
 }

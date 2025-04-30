@@ -13,6 +13,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Modern Sofa Set',
                 'image' => 'designs/sofa.jpg',
+                'model' => 'models/sofa.glb',
                 'style' => 'Modern',
                 'price' => 15000,
                 'length' => 2.0,
@@ -22,6 +23,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Classic Dining Table',
                 'image' => 'designs/dining_table.jpg',
+                'model' => 'models/dining_table.glb',
                 'style' => 'Classic',
                 'price' => 22000,
                 'length' => 1.8,
@@ -31,6 +33,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Modern Coffee Table',
                 'image' => 'designs/coffee_table.jpg',
+                'model' => 'models/coffe_table.glb',
                 'style' => 'Modern',
                 'price' => 6000,
                 'length' => 1.2,
@@ -40,6 +43,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Classic Wardrobe',
                 'image' => 'designs/wardrobe.jpg',
+                'model' => 'models/wardrobe.glb',
                 'style' => 'Classic',
                 'price' => 18000,
                 'length' => 1.5,
@@ -49,6 +53,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Minimalist Bookshelf',
                 'image' => 'designs/bookshelf.jpg',
+                'model' => 'models/bookshelf.glb',
                 'style' => 'Minimalist',
                 'price' => 9500,
                 'length' => 1.2,
@@ -58,6 +63,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Luxury Bed Frame',
                 'image' => 'designs/bed_frame.jpg',
+                'model' => 'models/black_wooden_bed_frame.glb',
                 'style' => 'Luxury',
                 'price' => 32000,
                 'length' => 2.2,
@@ -67,6 +73,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Scandinavian Armchair',
                 'image' => 'designs/armchair.jpg',
+                'model' => 'models/arm_chair__furniture.glb',
                 'style' => 'Scandinavian',
                 'price' => 8500,
                 'length' => 0.8,
@@ -76,6 +83,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Contemporary TV Unit',
                 'image' => 'designs/tv_unit.jpg',
+                'model' => 'models/tv_unit_furniture.glb',
                 'style' => 'Contemporary',
                 'price' => 12000,
                 'length' => 1.5,
@@ -85,6 +93,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Rustic Dining Bench',
                 'image' => 'designs/dining_bench.jpg',
+                'model' => 'models/dining_table.glb',
                 'style' => 'Rustic',
                 'price' => 7000,
                 'length' => 1.5,
@@ -94,6 +103,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Modern Study Desk',
                 'image' => 'designs/study_desk.jpg',
+                'model' => 'models/study_desk.glb',
                 'style' => 'Modern',
                 'price' => 11000,
                 'length' => 1.3,
@@ -103,6 +113,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Industrial Shelf Unit',
                 'image' => 'designs/shelf_unit.jpg',
+                'model' => 'models/shelf_unit.glb',
                 'style' => 'Industrial',
                 'price' => 14500,
                 'length' => 1.8,
@@ -112,6 +123,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Vintage Mirror Frame',
                 'image' => 'designs/mirror_frame.jpg',
+                'model' => 'models/dirty_old_mirror.glb',
                 'style' => 'Vintage',
                 'price' => 5500,
                 'length' => 0.9,
@@ -121,6 +133,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Luxury Nightstand',
                 'image' => 'designs/nightstand.jpg',
+                'model' => 'models/nightstand.glb',
                 'style' => 'Luxury',
                 'price' => 7500,
                 'length' => 0.6,
@@ -130,6 +143,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Modern Sideboard',
                 'image' => 'designs/sideboard.jpg',
+                'model' => 'models/sideboard.glb',
                 'style' => 'Modern',
                 'price' => 18500,
                 'length' => 1.6,
@@ -139,6 +153,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Bohemian Floor Lamp',
                 'image' => 'designs/floor_lamp.jpg',
+                'model' => 'models/floor_lamp.glb',
                 'style' => 'Bohemian',
                 'price' => 6200,
                 'length' => 0.45,
@@ -148,6 +163,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Classic Rocking Chair',
                 'image' => 'designs/rocking_chair.jpg',
+                'model' => 'models/rocking_chair.glb',
                 'style' => 'Classic',
                 'price' => 9800,
                 'length' => 0.9,
@@ -157,6 +173,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Rustic Coffee Table',
                 'image' => 'designs/rustic_coffee_table.jpg',
+                'model' => 'models/victorian_coffee_table.glb',
                 'style' => 'Rustic',
                 'price' => 8000,
                 'length' => 1.0,
@@ -166,6 +183,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Modern Wall Shelf',
                 'image' => 'designs/wall_shelf.jpg',
+                'model' => 'models/simple_wall_shelf.glb',
                 'style' => 'Modern',
                 'price' => 4800,
                 'length' => 1.0,
@@ -175,6 +193,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Scandinavian Dresser',
                 'image' => 'designs/dresser.jpg',
+                'model' => 'models/antique_dresser.glb',
                 'style' => 'Scandinavian',
                 'price' => 16000,
                 'length' => 1.5,
@@ -184,6 +203,7 @@ class DesignSeeder extends Seeder
             [
                 'name' => 'Minimalist Wall Art',
                 'image' => 'designs/wall_art.jpg',
+                'model' => 'models/wall_art.glb',
                 'style' => 'Minimalist',
                 'price' => 3500,
                 'length' => 0.7,
@@ -193,7 +213,10 @@ class DesignSeeder extends Seeder
         ];
 
         foreach ($designs as $design) {
-            Design::create($design);
+            Design::updateOrCreate(
+                ['name' => $design['name']], // Check by name to avoid duplicates
+                $design                       // Insert or update with new data
+            );
         }
     }
 }
