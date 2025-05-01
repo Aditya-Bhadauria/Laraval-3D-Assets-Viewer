@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- Include model-viewer -->
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 <div class="container py-5">
@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<!-- 3D Model Viewer Modal -->
+
 <div class="modal fade" id="modelViewerModal" tabindex="-1" aria-labelledby="modelViewerLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content rounded-4">
@@ -58,7 +58,7 @@
   </div>
 </div>
 
-<!-- JS to load 3D model dynamically in modal -->
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     var modelViewerModal = document.getElementById('modelViewerModal');
@@ -70,10 +70,10 @@ document.addEventListener('DOMContentLoaded', function () {
         var modelPath = button.getAttribute('data-model-path');
         var modelName = button.getAttribute('data-name');
 
-        // Set the src attribute of the model viewer
+       
         modelViewer.src = modelPath;
 
-        // Set the title of the modal
+     
         modelTitle.textContent = modelName + ' - 3D Preview';
     });
 });

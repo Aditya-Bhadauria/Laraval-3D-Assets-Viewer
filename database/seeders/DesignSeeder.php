@@ -214,8 +214,8 @@ class DesignSeeder extends Seeder
 
         foreach ($designs as $design) {
             Design::updateOrCreate(
-                ['name' => $design['name']], // Check by name to avoid duplicates
-                $design                       // Insert or update with new data
+                ['name' => $design['name']], 
+                $design                       
             );
         }
     }
